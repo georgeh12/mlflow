@@ -31,9 +31,7 @@ import re
 def data_analysis(df):
     # US-only, because keywords are in English
     df = df[df['country'] == 'US']
-    print(len(df))
     df = df[df['category'].str.contains('"parent_name":"Technology"')]
-    print(len(df))
 
     # List of regular expressions for search terms
     search_terms = []

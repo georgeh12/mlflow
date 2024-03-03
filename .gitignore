@@ -1,3 +1,4 @@
-myenv/**
+.venv/**
+webrobots/zip/*
+webrobots/raw/*
 mlruns/**
-data/**
